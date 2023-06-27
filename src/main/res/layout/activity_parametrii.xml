@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Parametrii">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/AppBar">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginBottom="15dp"
+            android:text="Sprinkel"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/on"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/buton"
+        android:text="Porneste pompa"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/buton"
+        android:text="Opreste pompa"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/titlu_param"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/off"
+        android:layout_marginTop="20dp"
+        android:background="@color/AppBar"
+        android:text="PARAMETRII"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/tomate"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/titlu_param"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton"
+        android:text="Tomate"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/ridichi"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/titlu_param"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton"
+        android:text="Ridichi"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/castraveti"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tomate"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton"
+        android:text="Castraveti"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/fasole"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ridichi"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buton"
+        android:text="Fasole"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
